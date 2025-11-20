@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [SignUp-page.com](https://wizdev0.github.io/SignUp-page/)
 
 ## My process
 
@@ -147,11 +147,6 @@ submitBtn.addEventListener("click", (e) => {
     }
 });
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 
 ### Continued development
 
