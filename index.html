@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Assets/favicon-32x32.png">
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <!-- BACKGROUND -->
+    <div class="container">
+
+        <!-- WRITE-UP -->
+        <div class="write-up-con">
+            <div class="write-up-h1">
+                <h1 class="write">
+                    Learn to code by watching others
+                </h1>
+            </div>
+            <div class="write-up-sub">
+                <p class="write-sub">
+                    See how experienced developers solve problems in real time. Watching scripted tutorials is great, but understanding developers thing is invaluable.
+                </p>
+            </div>
+        </div>
+
+        <!-- CONTAINER TWO -->
+        <div class="container-two">
+
+            <!-- FREE TRIAL -->
+            <div class="free-trial">
+                <p class="trial-p">
+                    Try it free 7 days <span class="highlight">then $20/mo, thereafter</span>
+                </p>
+            </div>
+
+            <!-- CARD -->
+            <div class="card">
+                <form class="form">
+
+                    <div class="input-one">
+                        <input id="firstName" type="text" class="input input-image active" placeholder="First name">
+                        <p id="error-firstName" class="input-p">First Name cannot be empty</p>
+                    </div>    
+                    
+                    <div class="input-two">
+                        <input id="lastName" type="text" class="input input-image active" placeholder="Last name">
+                        <p id="error-lastName" class="input-p">Last Name cannot be empty</p>
+                    </div>    
+
+                    <div class="input-three">
+                        <input id="email" type="text" class="input input-image active" placeholder="Email Address">
+                        <p id="error-email" class="input-p">Looks like this is not an email</p>
+                    </div>  
+
+                    <div class="input-four">
+                        <input id="password" type="password" class="input input-image active" placeholder="Password">
+                        <p id="error-password" class="input-p">Password cannot be empty</p>
+                    </div>
+
+                </form>
+
+                <div class="submit">
+                    <button class="sub-btn" id="submit">
+                        Claim your free trial
+                    </button>
+                </div>
+
+                <div class="terms-c">
+                    <p class="tandc">
+                        By clicking the button, you are agreeing to our <span class="ano">Terms and Services</span> 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
